@@ -9,38 +9,37 @@ Background: #FFFFFF;
 */
 
 body {
+  background: white;
   font-family: 'Poppins', sans-serif;
-}
-body {
-  background-color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  color:#333333
 }
+
 h1 {
-  font-size: 2.75em;
-  font-weight: 700;
+  margin-top: 0;
+  font-size: 1.802rem;
 }
 
-h2 {
-  font-size: 2.25em;
-  font-weight: 700;
-}
+h2 {font-size: 1.602rem;}
 
-h3 {
-  font-size: 1.75em;
-  font-weight: 400;
-}
-h4 {
-  font-size: 1.35em;
-  font-weight: 400;
-}
+h3 {font-size: 1.424rem;}
+
+h4 {font-size: 1.266rem;}
+
+h5 {font-size: 1.125rem;}
+
+small, .text_small {font-size: 0.889rem;}
 
 img {
   width: 100%;
