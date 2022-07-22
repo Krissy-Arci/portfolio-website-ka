@@ -7,3 +7,7 @@ Titles: #333333;
 Body: #000000;
 Background: #FFFFFF;
 */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
