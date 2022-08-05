@@ -21,6 +21,7 @@ Secondary Button Text: #517B6E;
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
 }
+
 .center {
   text-align: center;
 }
@@ -147,7 +148,7 @@ nav>ul>li>a:focus {
 }
 
 footer {
-    background-color: #D1FFF4;
+  background-color: #D1FFF4;
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -162,13 +163,16 @@ footer {
   border-width: thin;
 }
 
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 #work {
   background-color: #ffffff;
   padding: 80px 30px;
   display: inline-block;
   width: 100%;
-  border-bottom: 2px solid black;
-  border-width: thin;
 }
 
 #project1 {
@@ -176,10 +180,7 @@ footer {
   padding: 80px 30px;
   display: inline-block;
   width: 100%;
-  border-bottom: 2px solid black;
-  border-width: thin;
 }
-
 
 /* keep button class at end of document */
 .button {
