@@ -59,14 +59,27 @@ Secondary Button Text: #517B6E;
   opacity: 0.8;
 }
 
-.berlin-illustration {
+.philly_cats {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-.sun {
-  animation: 2s color-change infinite alternate linear;
+
+.water {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.airplane-move {
+  animation-duration: 15s;
+  animation-name: airplane-move;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
 }
 
 /*Long way to code sun animation----
@@ -76,19 +89,14 @@ Secondary Button Text: #517B6E;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
-} */
-.cloud-front {
-  animation: 10s cloud-move infinite alternate linear;
 }
 
-/*Long way to code cloud animation----
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-} */
+Short way to code sun example----
+.sun {
+  animation: 2s color-change infinite alternate linear;
+}*/
+
+
 header {
   background-color: #ffffff;
   text-align: center;
@@ -310,21 +318,20 @@ Medium devices (640px and larger)
 
 @keyframes color-change {
   from {
-    fill: #edc655;
+    fill: #d1fff4;
   }
-
   to {
-    fill: #f76414;
+    fill: #609387;
   }
 }
 
-@keyframes cloud-move {
+@keyframes airplane-move {
   from {
-    transform: translate(0, 50px);
+    transform: translate(0, -40px);
   }
 
   to {
-    transform: translate(200px, 50px);
+    transform: translate(1000px, -40px);
   }
 }
 
