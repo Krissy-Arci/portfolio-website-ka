@@ -65,7 +65,6 @@ Secondary Button Text: #517B6E;
   height: auto;
 }
 
-
 .water {
   animation-duration: 4s;
   animation-name: color-change;
@@ -95,8 +94,6 @@ Short way to code sun example----
 .sun {
   animation: 2s color-change infinite alternate linear;
 }*/
-
-
 header {
   background-color: #ffffff;
   text-align: center;
@@ -320,6 +317,7 @@ Medium devices (640px and larger)
   from {
     fill: #d1fff4;
   }
+
   to {
     fill: #609387;
   }
