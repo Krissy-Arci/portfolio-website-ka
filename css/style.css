@@ -16,11 +16,13 @@ Secondary Button Text: #517B6E;
 .container {
   padding: 0 15px;
 }
+
 .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .row {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
@@ -52,14 +54,15 @@ Secondary Button Text: #517B6E;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
+
 .button:hover {
   opacity: 0.8;
 }
 
 .berlin-illustration {
-width: 100%;
-max-width: 100%;
-height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .sun {
@@ -74,11 +77,9 @@ height: auto;
   animation-direction: alternate;
   animation-timing-function: linear;
 } */
-
 .cloud-front {
   animation: 10s cloud-move infinite alternate linear;
 }
-
 
 /*Long way to code cloud animation----
 .cloud-front {
@@ -88,8 +89,6 @@ height: auto;
   animation-direction: alternate;
   animation-timing-function: linear;
 } */
-
-
 header {
   background-color: #ffffff;
   text-align: center;
@@ -238,7 +237,9 @@ footer {
   width: 100%;
 }
 
-#about-page h3 { margin-top: 0;}
+#about-page h3 {
+  margin-top: 0;
+}
 
 #project1 {
   background-color: #ffffff;
@@ -246,7 +247,6 @@ footer {
   display: inline-block;
   width: 100%;
 }
-
 
 /* keep button class at end of document */
 .button {
@@ -308,15 +308,24 @@ Medium devices (640px and larger)
   padding: 10px;
 }
 
-
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414;
+  }
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 /* ==============================
