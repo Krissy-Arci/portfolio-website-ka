@@ -16,12 +16,15 @@ Secondary Button Text: #517B6E;
 .container {
   padding: 0 15px;
 }
-
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .row {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
 }
-
 
 .center {
   text-align: center;
@@ -29,7 +32,63 @@ Secondary Button Text: #517B6E;
 
 .logo {
   max-width: 50px;
+  padding-top: 25px;
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff7f50;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+.button:hover {
+  opacity: 0.8;
+}
+
+.berlin-illustration {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+
+.sun {
+  animation: 2s color-change infinite alternate linear;
+}
+
+/*Long way to code sun animation----
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+} */
+
+.cloud-front {
+  animation: 10s cloud-move infinite alternate linear;
+}
+
+
+/*Long way to code cloud animation----
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+} */
+
 
 header {
   background-color: #ffffff;
@@ -179,6 +238,8 @@ footer {
   width: 100%;
 }
 
+#about-page h3 { margin-top: 0;}
+
 #project1 {
   background-color: #ffffff;
   padding: 80px 30px;
@@ -223,36 +284,47 @@ footer {
 }
 
 /* keep button class at end of document */
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
-  text-align: unset;
-}
-nav {
-  width: auto;
-  float: right;
-  margin-top: 4px;
-}
-.col-md-6 {
-  width: 50%;
+    text-align: unset;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
 }
 
-}
 [class*="col-"] {
   float: left;
   padding: 10px;
 }
 
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 1440px) {}
