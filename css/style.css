@@ -219,8 +219,8 @@ nav>ul>li>a:focus {
 }
 
 main {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 footer {
@@ -287,8 +287,47 @@ margin-top: 65px;
   width: 100%;
 }
 
+#lofi {
+  width: 100%;
+
+}
+
+#midfi {
+  width: 100%;
+  margin-top: 65px;
+
+}
+
+#hifi {
+  width: 100%;
+  margin-top: 65px;
+
+}
+
+#styleguide {
+  width: 90%;
+
+}
+
 #h2-footer {
   padding-bottom: 20px;
+}
+
+
+#skills{
+  list-style-type: none;
+  padding-inline-start: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  column-gap: 20px;
+}
+
+#tools{
+  list-style-type: none;
+  padding-inline-start: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  column-gap: 20px;
 }
 
 #text-footer {
@@ -304,8 +343,33 @@ margin-top: 65px;
   column-gap: 20px;
 }
 
+#conclusion {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#thanks {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
 #button-resume {
   padding-top: 20px;
+}
+
+#h2t-video{
+  width: 560px;
+  height: 316px;
+}
+
+#h2t-logo{
+  width: 15%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* keep button class at end of document */
