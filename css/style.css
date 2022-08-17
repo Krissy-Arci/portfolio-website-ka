@@ -28,7 +28,7 @@ Secondary Button Text: #517B6E;
 }
 
 .row {
-  margin: 25px 0;
+  margin: 50px;
   /* 25px top and bottom, 0 left and right */
 }
 
@@ -114,6 +114,11 @@ main {
   padding-top: 133px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 nav {
   background-color: #ffffff;
   text-align: center;
@@ -185,10 +190,6 @@ small, .text_small {
   font-size: 0.889rem;
 }
 
-img {
-  width: 100%;
-}
-
 a {
   color: #000000;
   text-decoration: none;
@@ -241,13 +242,42 @@ footer {
 
 #work {
   background-color: #ffffff;
-  padding: 80px 30px;
+  padding: 80px 80px;
   display: inline-block;
   width: 100%;
 }
 
 #about-page h3 {
-  margin-top: 0;
+  margin-top: 0px;
+}
+
+#bio-img {
+  width: 50%;
+}
+
+#h2-story {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#h1-process{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#h2t-box {
+  width: 70%;
+  float:right;
+}
+
+#user-stories {
+  width: 85%;
+}
+
+#flow {
+  width: 100%;
+margin-top: 65px;
 }
 
 #project1 {
@@ -265,7 +295,6 @@ footer {
   padding-bottom: 20px;
 }
 
-
 #social-icons{
   list-style-type: none;
   display:inline-flex;
@@ -273,6 +302,10 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   column-gap: 20px;
+}
+
+#button-resume {
+  padding-top: 20px;
 }
 
 /* keep button class at end of document */
@@ -314,7 +347,7 @@ footer {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 1046px) {
   header {
     text-align: unset;
   }
@@ -332,7 +365,7 @@ Medium devices (640px and larger)
 
 [class*="col-"] {
   float: left;
-  padding: 10px;
+  padding: 30px;
 }
 
 @keyframes color-change {
