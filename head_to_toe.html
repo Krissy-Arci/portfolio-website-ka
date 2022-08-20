@@ -13,19 +13,23 @@
     rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Head to Toe</title>
+  <script src="https://kit.fontawesome.com/80328aa6d5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
     <div class="container">
-      <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img src="img/logo.png" alt="Krissy A logo" class="logo"></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -72,13 +76,13 @@
         </picture>
       </div>
       <div class="column col-md-6 col-lg-5">
-        <div id="research" class= container>
-        <h2>Research</h2>
-        <p>I looked at online stores that offered similar products and subscription services like Ipsy, Ulta, Amazon, Hello Fresh and Birch Box, keeping note of areas where the design felt clean and simple and where there was clutter and
-          potential difficulty for users to streamline their purchases and returns.</p>
+        <div id="research" class=container>
+          <h2>Research</h2>
+          <p>I looked at online stores that offered similar products and subscription services like Ipsy, Ulta, Amazon, Hello Fresh and Birch Box, keeping note of areas where the design felt clean and simple and where there was clutter and
+            potential difficulty for users to streamline their purchases and returns.</p>
+        </div>
       </div>
     </div>
-</div>
     <div class="row">
       <div class="column col-md-6 col-lg-7">
         <picture>
@@ -213,6 +217,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 
