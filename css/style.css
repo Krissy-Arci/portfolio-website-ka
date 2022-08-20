@@ -260,15 +260,44 @@ footer {
   padding-bottom: 20px;
 }
 
+
+#tagline {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#h2t-mockup {
+  border-radius: 75px;
+   padding: 20px;
+   width: 100%;
+   height: 100%;
+}
+
 #h1-process{
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+#research{
+  display: table-cell;
+        width: auto;
+        height: auto;
+        padding-top:50px;
+        vertical-align: middle;
+}
+
 #h2t-box {
-  width: 70%;
+  width: 60%;
   float:right;
+}
+
+#process {
+  width: 70%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #user-stories {
@@ -351,7 +380,7 @@ margin-top: 65px;
 
 #thanks {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 
@@ -368,6 +397,8 @@ margin-top: 65px;
 #h2t-logo{
   width: 15%;
 display: block;
+padding-top: 20px;
+padding-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
 }
