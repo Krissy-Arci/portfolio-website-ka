@@ -13,6 +13,7 @@ Secondary Button Text: #517B6E;
 }
 
 /* Layout styling */
+
 .container {
   padding: 0 25px;
 }
@@ -30,8 +31,7 @@ Secondary Button Text: #517B6E;
 .row {
   margin: 0;
   padding-top: 25px;
-    padding-bottom: 80px;
-
+  padding-bottom: 80px;
 }
 
 .center {
@@ -64,7 +64,7 @@ Secondary Button Text: #517B6E;
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 30px;
   font-size: 20px;
   padding-right: 0;
 }
@@ -127,7 +127,6 @@ Short way to code sun example----
 .sun {
   animation: 2s color-change infinite alternate linear;
 }*/
-
 header {
   background-color: #ffffff;
   padding: 0;
@@ -261,9 +260,12 @@ footer {
 #hero {
   background-color: #ffffff;
   text-align: center;
-  padding: 80px 30px;
   display: block;
   width: 100%;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 30px;
 }
 
 #work {
@@ -275,19 +277,19 @@ footer {
 }
 
 #h2t-mockup-1 {
-  border-radius: 40px;
-width: 100%;
-height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 #wagn-mockup-1 {
-  border-radius: 40px;
-width: 100%;
-height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 #bio-img {
-    border-radius: 40px;
+  border-radius: 20px;
   width: 100%;
   height: 100%;
 }
@@ -299,6 +301,26 @@ height: 100%;
 
 #about {
   padding-top: 100px;
+  background-color: #ffffff;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-image: url(../img/title-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 30px;
+}
+
+#project1 {
+  padding-top: 100px;
+  background-color: #ffffff;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-image: url(../img/title-bubbles.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 30px;
 }
 
 #tagline {
@@ -316,7 +338,10 @@ height: 100%;
 #h1-process {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  background-image: url(../img/title-bubbles.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #research {
@@ -382,6 +407,7 @@ height: 100%;
   width: fit-content;
   margin: auto;
   padding: 20px;
+  padding-left: 5px;
 }
 
 #relevant-skills {
@@ -390,23 +416,21 @@ height: 100%;
   padding-left: 0;
   padding-bottom: 20px;
   column-gap: 20px;
-    width: fit-content;
-    margin: auto;
+  width: fit-content;
+  margin: auto;
 }
 
 #h3-tools {
-padding-top: 10px;
-margin-bottom: -5px;
+  padding-top: 20px;
 }
 
 #tools {
   list-style-type: none;
-  padding-inline-start: 0px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  column-gap: 20px;
-}
-
+      padding-inline-start: 0px;
+      padding-top: 0px;
+      padding-bottom: 20px;
+      column-gap: 20px;
+    }
 
 #social-icons {
   list-style-type: none;
@@ -420,15 +444,20 @@ margin-bottom: -5px;
 #conclusion {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  background-image: url(../img/title-bubbles.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #thanks {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(../img/title-bubbles.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 #h2t-video {
   width: 560px;
@@ -449,10 +478,9 @@ margin-bottom: -5px;
 }
 
 #copyright {
-      padding-top: 50px;
+  padding-top: 50px;
   font-size: 0.889rem;
 }
-
 
 /* keep button class at end of document */
 .button {
@@ -493,7 +521,6 @@ margin-bottom: -5px;
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-
 @media only screen and (min-width: 641px) {
   header {
     background-color: #ffffff;
@@ -530,15 +557,12 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
-
 }
 
 [class*="col-"] {
   float: left;
   padding: 30px;
 }
-
-
 
 @keyframes color-change {
   from {
