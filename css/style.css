@@ -257,6 +257,7 @@ footer {
   width: 100%;
 }
 
+
 #hero {
   background-color: #ffffff;
   text-align: center;
@@ -288,11 +289,6 @@ footer {
   height: 100%;
 }
 
-#bio-img {
-  border-radius: 20px;
-  width: 100%;
-  height: 100%;
-}
 
 #h2-story {
   padding-top: 20px;
@@ -329,11 +325,12 @@ footer {
 }
 
 #h2t-mockup {
-  border-radius: 40px;
+  border-radius: ;
   padding: 20px;
   width: 100%;
   height: 100%;
 }
+
 
 #h1-process {
   text-align: center;
@@ -353,7 +350,7 @@ footer {
 }
 
 #h2t-box {
-  width: 60%;
+  width: 80%;
   float: right;
 }
 
@@ -363,6 +360,14 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#box-brands {
+  padding-top: 80px;
+}
+
+#results-2 {
+  padding-top: 30px;
 }
 
 #user-stories {
@@ -399,9 +404,22 @@ footer {
   width: 90%;
 }
 
+#h2t-prototype {
+  width: 20%;
+  border: 2px solid #000000;
+
+}
+
 #h2-footer {
   padding-bottom: 20px;
 }
+
+#bio-img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
 
 #h3-skills {
   width: fit-content;
@@ -443,7 +461,7 @@ footer {
 
 #conclusion {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 50px;
   background-image: url(../img/title-bubbles.png);
   background-repeat: no-repeat;
@@ -518,9 +536,11 @@ footer {
 }
 
 /* keep button class at end of document */
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
+
 @media only screen and (min-width: 641px) {
   header {
     background-color: #ffffff;
@@ -529,6 +549,16 @@ Medium devices (640px and larger)
     width: 100%;
     box-shadow: 0px 2px 8px -2px rgb(50 50 50 / 20%);
     position: fixed;
+  }
+
+  #tools-used {
+    width: 40%;
+        margin-left: 250px;
+  }
+
+  #reflection {
+    margin: auto;
+    inline-size: 700px;
   }
 
   nav>ul>li {
