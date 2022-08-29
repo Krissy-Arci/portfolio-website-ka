@@ -137,7 +137,9 @@ header {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 img {
@@ -400,14 +402,32 @@ footer {
   margin-top: 65px;
 }
 
+#test2 {
+  padding-top: 50px;
+}
+
 #styleguide {
   width: 90%;
 }
+
+#walkthrough {
+  padding-bottom: 60px;
+}
+
+#prototype-blurb {
+  padding-bottom: 40px;
+
+}
+
 
 #h2t-prototype {
   width: 20%;
   border: 2px solid #000000;
 
+}
+
+#key-insights {
+padding-bottom: 80px;
 }
 
 #h2-footer {
@@ -475,11 +495,6 @@ footer {
   background-image: url(../img/title-bubbles.png);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-#h2t-video {
-  width: 560px;
-  height: 316px;
 }
 
 #h2t-logo {
